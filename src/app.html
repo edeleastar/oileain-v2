@@ -1,3 +1,11 @@
 <template>
-  <h1>${message}</h1>
+  <require from="./resources/elements/oileain-header"></require>
+  <require from="./resources/elements/oileain-sidebar"></require>
+  <require from="./resources/elements/regions-sidebar"></require>
+  <oileain-header title.one-way="title"></oileain-header>
+  <oileain-sidebar></oileain-sidebar>
+  <regions-sidebar></regions-sidebar>
+  <div class="uk-container">
+    <router-view></router-view>
+  </div>
 </template>

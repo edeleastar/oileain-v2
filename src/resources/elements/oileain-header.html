@@ -1,0 +1,49 @@
+<template>
+  <div class="uk-flex uk-flex-center uk-flex-middle uk-text-center" uk-grid>
+    <div class="uk-padding-small">
+      <a href="#coasts-menu" uk-toggle title="Clickable list all Island by Costal Region" pos="bottom" uk-tooltip>
+        <font-awesome-icon icon.bind="bars" size="3x"></font-awesome-icon>
+      </a>
+    </div>
+    <div class="uk-padding-small">
+      <a href="#/" title="Map + Island Details" pos="bottom" uk-tooltip>
+        <font-awesome-icon icon.bind="mapMarked" size="3x"></font-awesome-icon>
+      </a>
+    </div>
+    <div class="uk-child-width-1-2@s uk-card uk-card-default uk-grid-collapse uk-text-center  uk-text-middle" uk-grid>
+      <div>
+        <div class="uk-tile uk-tile-default uk-padding-remove">
+          <h2> ${title} </h2>
+        </div>
+      </div>
+      <div>
+        <div class="uk-tile uk-tile-muted uk-padding-remove">
+          <p class="uk-text-small"> An experiment in exploring <a href="http://www.oileain.org/">David Walsh's
+              Oileain</a>.
+            Prepared by Eamonn de Leastar (edeleastar@gmail.com)</p>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="uk-padding-small">
+      <a href="#/navigator" title="All Ireland Map" pos="bottom" uk-tooltip>
+        <font-awesome-icon icon.bind="map" size="3x"> </font-awesome-icon> </i>
+      </a>
+    </div>
+    <div class="uk-padding-small">
+      <a href="http://www.oileain.org/" title="Oileain Book Site" pos="bottom" uk-tooltip> <img
+          data-src="http://www.oileain.org/wp-content/uploads/2015/05/oileain_2X.png" width="70px" height="" alt=""
+          uk-img> </a>
+    </div>
+    <div class="uk-padding-small">
+      <a href="https://github.com/edeleastar/oileain-au" title="Project Source" pos="bottom" uk-tooltip>
+        <font-awesome-icon icon.bind="github" size="3x"></font-awesome-icon>
+      </a>
+    </div>
+    <div class="uk-padding-small">
+      <a href="#regions-menu" uk-toggle title="Clickable list of interesting regions" pos="bottom" uk-tooltip>
+        <font-awesome-icon icon.bind="bars" size="3x"> </font-awesome-icon>
+      </a>
+    </div>
+  </div>
+</template>
